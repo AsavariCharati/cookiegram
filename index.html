@@ -4,25 +4,22 @@
   <meta charset="UTF-8" />
   <title>CookieGram 🍪</title>
 
-  <!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Short+Stack&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Short+Stack&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <div class="container">
 
-  <!-- INTRO SCREEN -->
+  <!-- INTRO (LOGIN SCREEN) -->
   <div id="intro">
     <h1 class="intro-text">let’s make a cookie</h1>
-    <button id="startBtn">let’s go</button>
+    <button onclick="login()">Sign in with Google</button>
   </div>
 
   <!-- MAIN APP -->
   <canvas id="canvas" width="300" height="300"></canvas>
-
   <div id="controls"></div>
-
   <button id="nextBtn">Next</button>
 
 </div>

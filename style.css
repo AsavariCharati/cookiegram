@@ -105,3 +105,8 @@ textarea, input {
   flex-direction: column;
   align-items: center;  /* 👈 ensures everything centered */
 }
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
